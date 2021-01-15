@@ -1,0 +1,55 @@
+body{
+    background-color: #ece7e7;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+}
+section{
+    background-color: #fff;
+    padding: 20px;
+}
+.top-player img {
+    width: 60px;
+}
+#player-items {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#player-items h5 {
+    padding-left: 10px;
+    font-weight: 500;
+}
+#blog-items{
+    display: flex;
+    margin-top: 20px;
+}
+#blog-items .title {
+    font-weight: bold;
+}
+#blog-items img {
+    width: 150px;
+}
+
+.blog-info{
+    padding-left: 20px;
+}
+#latest-course-section{
+margin-top: 50px;
+padding-top: 20px;
+}
+.latest-course img{
+    margin-bottom: 10px;
+    width: 200px;
+}
+@media screen and (max-width:579px){
+    #blog-items{
+        display: block;
+        margin-top: 20px;
+    }
+}
