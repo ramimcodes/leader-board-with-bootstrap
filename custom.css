@@ -47,6 +47,7 @@ padding-top: 20px;
     margin-bottom: 10px;
     width: 200px;
 }
+
 @media screen and (max-width:579px){
     #blog-items{
         display: block;
